@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html lang="zh-CN">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  
+  <title>My First Post - 我的个人主页</title>
+
+  
+  
+  <meta name="description" content="HELLO" />
+  <meta name="author" content="" />
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="preload stylesheet" as="style" href="https://hyy-yu.space/app.min.css" />
+
+  
+  <link rel="preload stylesheet" as="style" href="https://hyy-yu.space/an-old-hope.min.css" />
+  <script
+    defer
+    src="https://hyy-yu.space/highlight.min.js"
+    onload="hljs.initHighlightingOnLoad();"
+  ></script>
+  
+
+  
+  <link rel="preload" as="image" href="https://hyy-yu.space/theme.png" />
+
+  
+  <link rel="preload" as="image" href="https://hyy-yu.space/github.svg" />
+  
+
+  
+  <link rel="icon" href="https://hyy-yu.space/favicon.ico" />
+  <link rel="apple-touch-icon" href="https://hyy-yu.space/apple-touch-icon.png" />
+
+  
+  <meta name="generator" content="Hugo 0.83.1" />
+
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <meta property="og:title" content="My First Post" />
+<meta property="og:description" content="HELLO" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://hyy-yu.space/posts/my-first-post/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-01-21T09:56:39&#43;08:00" />
+<meta property="article:modified_time" content="2022-01-21T09:56:39&#43;08:00" />
+
+
+  
+  <meta itemprop="name" content="My First Post">
+<meta itemprop="description" content="HELLO"><meta itemprop="datePublished" content="2022-01-21T09:56:39&#43;08:00" />
+<meta itemprop="dateModified" content="2022-01-21T09:56:39&#43;08:00" />
+<meta itemprop="wordCount" content="1">
+<meta itemprop="keywords" content="" />
+  
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="My First Post"/>
+<meta name="twitter:description" content="HELLO"/>
+
+  
+  
+</head>
+
+
+  <body class="not-ready" data-menu="false">
+    <header class="header">
+  
+  <p class="logo">
+    <a class="site-name" href="https://hyy-yu.space">我的个人主页</a><a class="btn-dark"></a>
+  </p>
+  
+
+  <script>
+    let bodyClx = document.body.classList;
+    let btnDark = document.querySelector('.btn-dark');
+    let sysDark = window.matchMedia('(prefers-color-scheme: dark)');
+    let darkVal = localStorage.getItem('dark');
+
+    let setDark = (isDark) => {
+      bodyClx[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark ? 'yes' : 'no');
+    };
+
+    setDark(darkVal ? darkVal === 'yes' : sysDark.matches);
+    requestAnimationFrame(() => bodyClx.remove('not-ready'));
+
+    btnDark.addEventListener('click', () => setDark(!bodyClx.contains('dark')));
+    sysDark.addEventListener('change', (event) => setDark(event.matches));
+  </script>
+
+  
+  
+
+  
+  <nav class="social">
+    
+    <a
+      class="github"
+      style="--url: url(./github.svg)"
+      href="https://github.com/HYY-yu"
+      target="_blank"
+    ></a>
+    
+  </nav>
+  
+</header>
+
+
+    <main class="main">
+
+<article class="post-single">
+  <header class="post-title">
+    <p>
+      <time>:date_medium</time>
+      
+    </p>
+    <h1>My First Post</h1>
+  </header>
+  <section class="post-content"><p>HELLO</p>
+</section>
+
+  
+  
+
+  
+  
+  
+
+  
+  
+</article>
+
+</main>
+
+    <footer class="footer">
+  <p>&copy; 2022 <a href="https://hyy-yu.space">我的个人主页</a></p>
+  <p>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️</p>
+  <p>
+    <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper 5.1</a>
+  </p>
+  <p><a href="https://beian.miit.gov.cn">赣ICP备2022000603号-1</a>
+</footer>
+
+  </body>
+</html>

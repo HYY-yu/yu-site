@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://hyy-yu.space/posts/my-first-post/</loc>
+    <lastmod>2022-01-21T09:56:39+08:00</lastmod>
+  </url><url>
+    <loc>https://hyy-yu.space/posts/</loc>
+    <lastmod>2022-01-21T09:56:39+08:00</lastmod>
+  </url><url>
+    <loc>https://hyy-yu.space/</loc>
+    <lastmod>2022-01-21T09:56:39+08:00</lastmod>
+  </url><url>
+    <loc>https://hyy-yu.space/categories/</loc>
+  </url><url>
+    <loc>https://hyy-yu.space/tags/</loc>
+  </url>
+</urlset>
